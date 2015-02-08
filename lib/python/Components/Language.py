@@ -14,6 +14,7 @@ class Language:
 		self.langlist = []
 		# FIXME make list dynamically
 		# name, iso-639 language, iso-3166 country. Please don't mix language&country!
+		self.addLanguage("Polski", "pl", "PL", "ISO-8859-15")
 		self.addLanguage("Arabic", "ar", "AE", "ISO-8859-15")
 		self.addLanguage("Български", "bg", "BG", "ISO-8859-15")
 		self.addLanguage("Bokmål", "nb", "NO", "ISO-8859-15")
@@ -41,7 +42,6 @@ class Language:
 		self.addLanguage("Nederlands", "nl", "NL", "ISO-8859-15")
 		self.addLanguage("Norsk Bokmål", "nb", "NO", "ISO-8859-15")
 		self.addLanguage("Norsk", "no", "NO", "ISO-8859-15")
-		self.addLanguage("Polski", "pl", "PL", "ISO-8859-15")
 		self.addLanguage("Português", "pt", "PT", "ISO-8859-15")
 		self.addLanguage("Português do Brasil", "pt", "BR", "ISO-8859-15")
 		self.addLanguage("Romanian", "ro", "RO", "ISO-8859-15")
